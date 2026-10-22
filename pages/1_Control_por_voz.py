@@ -31,7 +31,7 @@ client1.on_message = on_message
 st.title("INTERFACES MULTIMODALES")
 st.subheader("CONTROL POR VOZ")
 
-image = Image.open(Robot_Chido.jpg')
+image = Image.open('Robot_Chido.jpg')
 
 st.image(image, width=200)
 
